@@ -20,5 +20,5 @@ from blog import views
 urlpatterns = [
     url(r"^admin/", admin.site.urls),
     url(r"^cur_time",views.cur_time),
-    url(r"userInfo",views.userInfo),
+    url(r"userInfo",views.UserInfo),
 ]
